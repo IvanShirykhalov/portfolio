@@ -3,7 +3,7 @@ import s from './Skills.module.css'
 import sContainer from '../common/styles/Container.module.css'
 import {Skill} from "./Skill/Skill";
 
-const Skills = () => {
+export const Skills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
@@ -17,5 +17,3 @@ const Skills = () => {
         </div>
     );
 };
-
-export default Skills;
