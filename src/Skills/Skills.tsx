@@ -1,10 +1,12 @@
 import React from 'react';
-import s from './Skills.module.css'
+import s from './Skills.module.scss'
 import sContainer from '../common/styles/Container.module.css'
 import {Skill} from "./Skill/Skill";
 import {Title} from "../components/title/Title";
 
 export const Skills = () => {
+
+
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
