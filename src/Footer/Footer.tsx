@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className={s.footerBlock}>
             <div className={`${sContainer.container} ${s.footerContainer}`}>
                 <div className={sContainer.container}>
-                    <h2 className={s.title}>My contacts</h2>
+                    <h2 className={s.title}>Ivan Ivanov</h2>
                     <div className={s.iconBlock}>
                         <div className={s.icon}></div>
                         <div className={s.icon}></div>

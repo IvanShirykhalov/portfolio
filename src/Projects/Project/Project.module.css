@@ -1,14 +1,58 @@
 .project {
-    width: 250px;
-    background-color: #1b489a;
+    width: 450px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    background-color: #252527;
 }
 
-.icon {
-    height: 150px;
-    width: 150px;
-    background-color: #bf00ff;
+.image {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image::before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+}
+
+.viewBtn {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    /*border-radius: 10%;*/
+}
+
+.projectInfo {
+    padding: 25px 20px;
+
+}
+
+.projectTitle {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    line-height: 1.2;
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
 }
