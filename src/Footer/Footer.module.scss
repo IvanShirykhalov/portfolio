@@ -1,0 +1,37 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.footerBlock {
+  background-color: $backGroundColor;
+  padding: 100px 0;
+
+
+  .footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .iconBlock {
+
+      /*border: 1px solid;*/
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+
+      .icon {
+        height: 80px;
+        width: 80px;
+        background-color: $backGroundSecondColor;
+      }
+
+    }
+
+    .footerYear {
+      color: $textColor;
+      font-family: $textFontFamily;
+    }
+  }
+}
+
+

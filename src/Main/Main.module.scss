@@ -1,0 +1,25 @@
+@import './src/common/styles/sass/variables';
+
+.mainBlock {
+  height: 100vh;
+  background-color: $backGroundColor;
+  padding: 100px 0;
+
+  .text {
+    font-family: $textFontFamily;
+    color: $textColor;
+    width: 300px;
+    background-color: $backGroundSecondColor;
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    background-color: $backGroundSecondColor;
+  }
+}
+
+
+
+
+
